@@ -1,0 +1,8 @@
+In package.json under scripts
+
+npm build command looks for webpack.config.js to bundle files
+-d is for development mode
+
+cp src/index.html dist/index.html => copies index.html from src to dist
+webpack-dev-server --content-base src/ => webpack server config. tells to pick content from src folder
+--hot => for hot reloading the server
